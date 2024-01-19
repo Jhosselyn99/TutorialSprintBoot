@@ -1,6 +1,5 @@
 package com.djl.dto;
 
-import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -11,11 +10,9 @@ import java.util.Date;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class UsuarioDTO {
-
+public class UsuarioGetDTO {
     private String nombre;
     private String correo;
-    private String password;
     private Date fechaNacimiento;
     private String Celular;
 }
